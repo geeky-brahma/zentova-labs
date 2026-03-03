@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Zentova Labs | Secure Digital Systems & Engineering",
     description: "Expert engineering in web, AI, and backend systems.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
     creator: "@zentovalabs",
   },
   robots: "index, follow",
