@@ -84,7 +84,7 @@ const Hero = () => {
       </motion.div>
 
       {/* Trust Bar / Company Marquee */}
-      <div className="absolute bottom-12 left-0 right-0 z-10">
+      <div className="relative z-10 w-full pb-12">
         <div className="max-w-7xl mx-auto px-4">
           <p className="text-center text-slate-600 text-xs font-bold uppercase tracking-[0.3em] mb-8">
             Trusted by industry leaders
