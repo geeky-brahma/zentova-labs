@@ -19,11 +19,11 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Zentova Labs - Secure Digital Systems",
-        type: "image/jpeg",
+        type: "image/png",
       },
     ],
   },
