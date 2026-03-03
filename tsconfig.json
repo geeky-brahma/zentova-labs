@@ -33,12 +33,18 @@
     "strictNullChecks": true
   },
   "include": [
-    "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "next-env.d.ts",
     ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "server.ts",
+    "vite.config.ts",
+    "src/App.tsx",
+    "src/main.tsx",
+    "src/components/**/*",
+    "legacy-pages/**/*"
   ]
 }

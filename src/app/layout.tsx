@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://zentova-labs.com";
@@ -44,11 +44,7 @@ export const metadata: Metadata = {
     "scalable systems",
   ],
   authors: [{ name: "Zentova Labs" }],
-};
-
-export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
