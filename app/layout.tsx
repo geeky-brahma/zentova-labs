@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://zentova-labs.com";
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://zentovalabs.com";
 
 export const metadata: Metadata = {
   title: "Zentova Labs | Secure Digital Systems & Engineering",
