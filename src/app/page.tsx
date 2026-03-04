@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Zentova Labs | Enterprise Digital Systems & Solutions",
     description: "Expert software engineering services delivering secure, scalable solutions for modern businesses.",
+    url: "https://www.zentovalabs.com",
+    siteName: "Zentova Labs",
     type: "website",
     images: [
       {
